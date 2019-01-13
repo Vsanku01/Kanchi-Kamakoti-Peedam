@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D81E2CD21EB6C04001A2A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E2CC21EB6C04001A2A27 /* AppDelegate.swift */; };
+		1D81E2CF21EB6C04001A2A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E2CE21EB6C04001A2A27 /* ViewController.swift */; };
+		1D81E2D221EB6C04001A2A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D81E2D021EB6C04001A2A27 /* Main.storyboard */; };
+		1D81E2D421EB6C05001A2A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D81E2D321EB6C05001A2A27 /* Assets.xcassets */; };
+		1D81E2D721EB6C05001A2A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D81E2D521EB6C05001A2A27 /* LaunchScreen.storyboard */; };
+		1D81E2E221EB6C05001A2A27 /* Kanchi_Kamakoti_PeedamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E2E121EB6C05001A2A27 /* Kanchi_Kamakoti_PeedamTests.swift */; };
+		1D81E2ED21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E2EC21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D81E2DE21EB6C05001A2A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D81E2C121EB6C04001A2A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D81E2C821EB6C04001A2A27;
+			remoteInfo = "Kanchi Kamakoti Peedam";
+		};
+		1D81E2E921EB6C06001A2A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D81E2C121EB6C04001A2A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D81E2C821EB6C04001A2A27;
+			remoteInfo = "Kanchi Kamakoti Peedam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D81E2C921EB6C04001A2A27 /* Kanchi Kamakoti Peedam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanchi Kamakoti Peedam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D81E2CC21EB6C04001A2A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D81E2CE21EB6C04001A2A27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D81E2D121EB6C04001A2A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D81E2D321EB6C05001A2A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D81E2D621EB6C05001A2A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D81E2D821EB6C05001A2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D81E2DD21EB6C05001A2A27 /* Kanchi Kamakoti PeedamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanchi Kamakoti PeedamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D81E2E121EB6C05001A2A27 /* Kanchi_Kamakoti_PeedamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanchi_Kamakoti_PeedamTests.swift; sourceTree = "<group>"; };
+		1D81E2E321EB6C06001A2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D81E2E821EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanchi Kamakoti PeedamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D81E2EC21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanchi_Kamakoti_PeedamUITests.swift; sourceTree = "<group>"; };
+		1D81E2EE21EB6C06001A2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D81E2C621EB6C04001A2A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D81E2DA21EB6C05001A2A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D81E2E521EB6C06001A2A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D81E2C021EB6C04001A2A27 = {
+			isa = PBXGroup;
+			children = (
+				1D81E2CB21EB6C04001A2A27 /* Kanchi Kamakoti Peedam */,
+				1D81E2E021EB6C05001A2A27 /* Kanchi Kamakoti PeedamTests */,
+				1D81E2EB21EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests */,
+				1D81E2CA21EB6C04001A2A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D81E2CA21EB6C04001A2A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D81E2C921EB6C04001A2A27 /* Kanchi Kamakoti Peedam.app */,
+				1D81E2DD21EB6C05001A2A27 /* Kanchi Kamakoti PeedamTests.xctest */,
+				1D81E2E821EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D81E2CB21EB6C04001A2A27 /* Kanchi Kamakoti Peedam */ = {
+			isa = PBXGroup;
+			children = (
+				1D81E2CC21EB6C04001A2A27 /* AppDelegate.swift */,
+				1D81E2CE21EB6C04001A2A27 /* ViewController.swift */,
+				1D81E2D021EB6C04001A2A27 /* Main.storyboard */,
+				1D81E2D321EB6C05001A2A27 /* Assets.xcassets */,
+				1D81E2D521EB6C05001A2A27 /* LaunchScreen.storyboard */,
+				1D81E2D821EB6C05001A2A27 /* Info.plist */,
+			);
+			path = "Kanchi Kamakoti Peedam";
+			sourceTree = "<group>";
+		};
+		1D81E2E021EB6C05001A2A27 /* Kanchi Kamakoti PeedamTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D81E2E121EB6C05001A2A27 /* Kanchi_Kamakoti_PeedamTests.swift */,
+				1D81E2E321EB6C06001A2A27 /* Info.plist */,
+			);
+			path = "Kanchi Kamakoti PeedamTests";
+			sourceTree = "<group>";
+		};
+		1D81E2EB21EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D81E2EC21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift */,
+				1D81E2EE21EB6C06001A2A27 /* Info.plist */,
+			);
+			path = "Kanchi Kamakoti PeedamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D81E2C821EB6C04001A2A27 /* Kanchi Kamakoti Peedam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D81E2F121EB6C06001A2A27 /* Build configuration list for PBXNativeTarget "Kanchi Kamakoti Peedam" */;
+			buildPhases = (
+				1D81E2C521EB6C04001A2A27 /* Sources */,
+				1D81E2C621EB6C04001A2A27 /* Frameworks */,
+				1D81E2C721EB6C04001A2A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kanchi Kamakoti Peedam";
+			productName = "Kanchi Kamakoti Peedam";
+			productReference = 1D81E2C921EB6C04001A2A27 /* Kanchi Kamakoti Peedam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D81E2DC21EB6C05001A2A27 /* Kanchi Kamakoti PeedamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D81E2F421EB6C06001A2A27 /* Build configuration list for PBXNativeTarget "Kanchi Kamakoti PeedamTests" */;
+			buildPhases = (
+				1D81E2D921EB6C05001A2A27 /* Sources */,
+				1D81E2DA21EB6C05001A2A27 /* Frameworks */,
+				1D81E2DB21EB6C05001A2A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D81E2DF21EB6C05001A2A27 /* PBXTargetDependency */,
+			);
+			name = "Kanchi Kamakoti PeedamTests";
+			productName = "Kanchi Kamakoti PeedamTests";
+			productReference = 1D81E2DD21EB6C05001A2A27 /* Kanchi Kamakoti PeedamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D81E2E721EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D81E2F721EB6C06001A2A27 /* Build configuration list for PBXNativeTarget "Kanchi Kamakoti PeedamUITests" */;
+			buildPhases = (
+				1D81E2E421EB6C06001A2A27 /* Sources */,
+				1D81E2E521EB6C06001A2A27 /* Frameworks */,
+				1D81E2E621EB6C06001A2A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D81E2EA21EB6C06001A2A27 /* PBXTargetDependency */,
+			);
+			name = "Kanchi Kamakoti PeedamUITests";
+			productName = "Kanchi Kamakoti PeedamUITests";
+			productReference = 1D81E2E821EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D81E2C121EB6C04001A2A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "S VISHNU DARSHAN";
+				TargetAttributes = {
+					1D81E2C821EB6C04001A2A27 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1D81E2DC21EB6C05001A2A27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D81E2C821EB6C04001A2A27;
+					};
+					1D81E2E721EB6C06001A2A27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D81E2C821EB6C04001A2A27;
+					};
+				};
+			};
+			buildConfigurationList = 1D81E2C421EB6C04001A2A27 /* Build configuration list for PBXProject "Kanchi Kamakoti Peedam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D81E2C021EB6C04001A2A27;
+			productRefGroup = 1D81E2CA21EB6C04001A2A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D81E2C821EB6C04001A2A27 /* Kanchi Kamakoti Peedam */,
+				1D81E2DC21EB6C05001A2A27 /* Kanchi Kamakoti PeedamTests */,
+				1D81E2E721EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D81E2C721EB6C04001A2A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D81E2D721EB6C05001A2A27 /* LaunchScreen.storyboard in Resources */,
+				1D81E2D421EB6C05001A2A27 /* Assets.xcassets in Resources */,
+				1D81E2D221EB6C04001A2A27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D81E2DB21EB6C05001A2A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D81E2E621EB6C06001A2A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D81E2C521EB6C04001A2A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D81E2CF21EB6C04001A2A27 /* ViewController.swift in Sources */,
+				1D81E2CD21EB6C04001A2A27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D81E2D921EB6C05001A2A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D81E2E221EB6C05001A2A27 /* Kanchi_Kamakoti_PeedamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D81E2E421EB6C06001A2A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D81E2ED21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D81E2DF21EB6C05001A2A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D81E2C821EB6C04001A2A27 /* Kanchi Kamakoti Peedam */;
+			targetProxy = 1D81E2DE21EB6C05001A2A27 /* PBXContainerItemProxy */;
+		};
+		1D81E2EA21EB6C06001A2A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D81E2C821EB6C04001A2A27 /* Kanchi Kamakoti Peedam */;
+			targetProxy = 1D81E2E921EB6C06001A2A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D81E2D021EB6C04001A2A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D81E2D121EB6C04001A2A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D81E2D521EB6C05001A2A27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D81E2D621EB6C05001A2A27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D81E2EF21EB6C06001A2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D81E2F021EB6C06001A2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D81E2F221EB6C06001A2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanchi Kamakoti Peedam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scsvmv.Kanchi-Kamakoti-Peedam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D81E2F321EB6C06001A2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanchi Kamakoti Peedam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scsvmv.Kanchi-Kamakoti-Peedam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D81E2F521EB6C06001A2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanchi Kamakoti PeedamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scsvmv.Kanchi-Kamakoti-PeedamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanchi Kamakoti Peedam.app/Kanchi Kamakoti Peedam";
+			};
+			name = Debug;
+		};
+		1D81E2F621EB6C06001A2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanchi Kamakoti PeedamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scsvmv.Kanchi-Kamakoti-PeedamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanchi Kamakoti Peedam.app/Kanchi Kamakoti Peedam";
+			};
+			name = Release;
+		};
+		1D81E2F821EB6C06001A2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanchi Kamakoti PeedamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scsvmv.Kanchi-Kamakoti-PeedamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanchi Kamakoti Peedam";
+			};
+			name = Debug;
+		};
+		1D81E2F921EB6C06001A2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanchi Kamakoti PeedamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scsvmv.Kanchi-Kamakoti-PeedamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanchi Kamakoti Peedam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D81E2C421EB6C04001A2A27 /* Build configuration list for PBXProject "Kanchi Kamakoti Peedam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D81E2EF21EB6C06001A2A27 /* Debug */,
+				1D81E2F021EB6C06001A2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D81E2F121EB6C06001A2A27 /* Build configuration list for PBXNativeTarget "Kanchi Kamakoti Peedam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D81E2F221EB6C06001A2A27 /* Debug */,
+				1D81E2F321EB6C06001A2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D81E2F421EB6C06001A2A27 /* Build configuration list for PBXNativeTarget "Kanchi Kamakoti PeedamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D81E2F521EB6C06001A2A27 /* Debug */,
+				1D81E2F621EB6C06001A2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D81E2F721EB6C06001A2A27 /* Build configuration list for PBXNativeTarget "Kanchi Kamakoti PeedamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D81E2F821EB6C06001A2A27 /* Debug */,
+				1D81E2F921EB6C06001A2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D81E2C121EB6C04001A2A27 /* Project object */;
+}
