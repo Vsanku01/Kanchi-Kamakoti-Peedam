@@ -14,6 +14,22 @@
 		1D81E2D721EB6C05001A2A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D81E2D521EB6C05001A2A27 /* LaunchScreen.storyboard */; };
 		1D81E2E221EB6C05001A2A27 /* Kanchi_Kamakoti_PeedamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E2E121EB6C05001A2A27 /* Kanchi_Kamakoti_PeedamTests.swift */; };
 		1D81E2ED21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E2EC21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift */; };
+		1D81E2FB21EB7780001A2A27 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E2FA21EB7780001A2A27 /* SecondViewController.swift */; };
+		1DBA66A221EC6217001B25F1 /* bookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA66A121EC6217001B25F1 /* bookViewController.swift */; };
+		1DBA66A621EC705B001B25F1 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA66A521EC705B001B25F1 /* FinalViewController.swift */; };
+		1DBA66A921EC73FF001B25F1 /* Ekambarnathar Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DBA66A721EC73FF001B25F1 /* Ekambarnathar Temple.jpg */; };
+		1DBA66AA21EC73FF001B25F1 /* Shri Kanchi Kamakshi Amman Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DBA66A821EC73FF001B25F1 /* Shri Kanchi Kamakshi Amman Temple.jpg */; };
+		1DF7985421F1A9550066D34C /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985321F1A9550066D34C /* sample.mp3 */; };
+		1DF7985621F1B13D0066D34C /* Chitragupta Swamy Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985521F1B13D0066D34C /* Chitragupta Swamy Temple.jpg */; };
+		1DF7985F21F1B1650066D34C /* Kailasanathar Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985721F1B1630066D34C /* Kailasanathar Temple.jpg */; };
+		1DF7986021F1B1650066D34C /* Shri Kanchi Kamakoti peetham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985821F1B1630066D34C /* Shri Kanchi Kamakoti peetham.jpg */; };
+		1DF7986121F1B1650066D34C /* Ulagalanda Perumal Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985921F1B1640066D34C /* Ulagalanda Perumal Temple.jpg */; };
+		1DF7986221F1B1650066D34C /* Sri Kachabeswarar Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985A21F1B1640066D34C /* Sri Kachabeswarar Temple.jpg */; };
+		1DF7986321F1B1650066D34C /* Adhi Kamakshi Amman Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985B21F1B1640066D34C /* Adhi Kamakshi Amman Temple.jpg */; };
+		1DF7986421F1B1650066D34C /* Kumara Kottam Subramanyar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985C21F1B1640066D34C /* Kumara Kottam Subramanyar.jpg */; };
+		1DF7986521F1B1650066D34C /* Pandava Dhoota Perumal Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985D21F1B1640066D34C /* Pandava Dhoota Perumal Temple.jpg */; };
+		1DF7986621F1B1650066D34C /* Vaikunta Perumal Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7985E21F1B1650066D34C /* Vaikunta Perumal Temple.jpg */; };
+		1DF8FBE621ECB2760001AEEC /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF8FBE521ECB2760001AEEC /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,22 @@
 		1D81E2E821EB6C06001A2A27 /* Kanchi Kamakoti PeedamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanchi Kamakoti PeedamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D81E2EC21EB6C06001A2A27 /* Kanchi_Kamakoti_PeedamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanchi_Kamakoti_PeedamUITests.swift; sourceTree = "<group>"; };
 		1D81E2EE21EB6C06001A2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D81E2FA21EB7780001A2A27 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1DBA66A121EC6217001B25F1 /* bookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookViewController.swift; sourceTree = "<group>"; };
+		1DBA66A521EC705B001B25F1 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		1DBA66A721EC73FF001B25F1 /* Ekambarnathar Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ekambarnathar Temple.jpg"; path = "../../Ekambarnathar Temple.jpg"; sourceTree = "<group>"; };
+		1DBA66A821EC73FF001B25F1 /* Shri Kanchi Kamakshi Amman Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Shri Kanchi Kamakshi Amman Temple.jpg"; path = "../../Shri Kanchi Kamakshi Amman Temple.jpg"; sourceTree = "<group>"; };
+		1DF7985321F1A9550066D34C /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
+		1DF7985521F1B13D0066D34C /* Chitragupta Swamy Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chitragupta Swamy Temple.jpg"; sourceTree = "<group>"; };
+		1DF7985721F1B1630066D34C /* Kailasanathar Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kailasanathar Temple.jpg"; sourceTree = "<group>"; };
+		1DF7985821F1B1630066D34C /* Shri Kanchi Kamakoti peetham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shri Kanchi Kamakoti peetham.jpg"; sourceTree = "<group>"; };
+		1DF7985921F1B1640066D34C /* Ulagalanda Perumal Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ulagalanda Perumal Temple.jpg"; sourceTree = "<group>"; };
+		1DF7985A21F1B1640066D34C /* Sri Kachabeswarar Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sri Kachabeswarar Temple.jpg"; sourceTree = "<group>"; };
+		1DF7985B21F1B1640066D34C /* Adhi Kamakshi Amman Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Adhi Kamakshi Amman Temple.jpg"; sourceTree = "<group>"; };
+		1DF7985C21F1B1640066D34C /* Kumara Kottam Subramanyar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kumara Kottam Subramanyar.jpg"; sourceTree = "<group>"; };
+		1DF7985D21F1B1640066D34C /* Pandava Dhoota Perumal Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pandava Dhoota Perumal Temple.jpg"; sourceTree = "<group>"; };
+		1DF7985E21F1B1650066D34C /* Vaikunta Perumal Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vaikunta Perumal Temple.jpg"; sourceTree = "<group>"; };
+		1DF8FBE521ECB2760001AEEC /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +132,25 @@
 				1D81E2CC21EB6C04001A2A27 /* AppDelegate.swift */,
 				1D81E2CE21EB6C04001A2A27 /* ViewController.swift */,
 				1D81E2D021EB6C04001A2A27 /* Main.storyboard */,
+				1DF8FBE521ECB2760001AEEC /* NewViewController.swift */,
+				1DBA66A521EC705B001B25F1 /* FinalViewController.swift */,
+				1DBA66A121EC6217001B25F1 /* bookViewController.swift */,
+				1D81E2FA21EB7780001A2A27 /* SecondViewController.swift */,
 				1D81E2D321EB6C05001A2A27 /* Assets.xcassets */,
+				1DBA66A721EC73FF001B25F1 /* Ekambarnathar Temple.jpg */,
+				1DBA66A821EC73FF001B25F1 /* Shri Kanchi Kamakshi Amman Temple.jpg */,
+				1DF7985521F1B13D0066D34C /* Chitragupta Swamy Temple.jpg */,
+				1DF7985B21F1B1640066D34C /* Adhi Kamakshi Amman Temple.jpg */,
+				1DF7985721F1B1630066D34C /* Kailasanathar Temple.jpg */,
+				1DF7985C21F1B1640066D34C /* Kumara Kottam Subramanyar.jpg */,
+				1DF7985D21F1B1640066D34C /* Pandava Dhoota Perumal Temple.jpg */,
+				1DF7985821F1B1630066D34C /* Shri Kanchi Kamakoti peetham.jpg */,
+				1DF7985A21F1B1640066D34C /* Sri Kachabeswarar Temple.jpg */,
+				1DF7985921F1B1640066D34C /* Ulagalanda Perumal Temple.jpg */,
+				1DF7985E21F1B1650066D34C /* Vaikunta Perumal Temple.jpg */,
 				1D81E2D521EB6C05001A2A27 /* LaunchScreen.storyboard */,
 				1D81E2D821EB6C05001A2A27 /* Info.plist */,
+				1DF7985221F1A90A0066D34C /* Music */,
 			);
 			path = "Kanchi Kamakoti Peedam";
 			sourceTree = "<group>";
@@ -123,6 +171,14 @@
 				1D81E2EE21EB6C06001A2A27 /* Info.plist */,
 			);
 			path = "Kanchi Kamakoti PeedamUITests";
+			sourceTree = "<group>";
+		};
+		1DF7985221F1A90A0066D34C /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				1DF7985321F1A9550066D34C /* sample.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +285,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF7985621F1B13D0066D34C /* Chitragupta Swamy Temple.jpg in Resources */,
+				1DF7986621F1B1650066D34C /* Vaikunta Perumal Temple.jpg in Resources */,
+				1DBA66AA21EC73FF001B25F1 /* Shri Kanchi Kamakshi Amman Temple.jpg in Resources */,
+				1DF7985F21F1B1650066D34C /* Kailasanathar Temple.jpg in Resources */,
+				1DF7986121F1B1650066D34C /* Ulagalanda Perumal Temple.jpg in Resources */,
 				1D81E2D721EB6C05001A2A27 /* LaunchScreen.storyboard in Resources */,
+				1DF7985421F1A9550066D34C /* sample.mp3 in Resources */,
+				1DF7986421F1B1650066D34C /* Kumara Kottam Subramanyar.jpg in Resources */,
+				1DF7986021F1B1650066D34C /* Shri Kanchi Kamakoti peetham.jpg in Resources */,
 				1D81E2D421EB6C05001A2A27 /* Assets.xcassets in Resources */,
 				1D81E2D221EB6C04001A2A27 /* Main.storyboard in Resources */,
+				1DF7986321F1B1650066D34C /* Adhi Kamakshi Amman Temple.jpg in Resources */,
+				1DF7986221F1B1650066D34C /* Sri Kachabeswarar Temple.jpg in Resources */,
+				1DBA66A921EC73FF001B25F1 /* Ekambarnathar Temple.jpg in Resources */,
+				1DF7986521F1B1650066D34C /* Pandava Dhoota Perumal Temple.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D81E2FB21EB7780001A2A27 /* SecondViewController.swift in Sources */,
+				1DBA66A621EC705B001B25F1 /* FinalViewController.swift in Sources */,
+				1DF8FBE621ECB2760001AEEC /* NewViewController.swift in Sources */,
+				1DBA66A221EC6217001B25F1 /* bookViewController.swift in Sources */,
 				1D81E2CF21EB6C04001A2A27 /* ViewController.swift in Sources */,
 				1D81E2CD21EB6C04001A2A27 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSVSXJ5G46;
 				INFOPLIST_FILE = "Kanchi Kamakoti Peedam/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSVSXJ5G46;
 				INFOPLIST_FILE = "Kanchi Kamakoti Peedam/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
